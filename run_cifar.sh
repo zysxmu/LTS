@@ -1,0 +1,19 @@
+CUDA_VISIBLE_DEVICES=3 python train_cifar.py   --dataset 'cifar100' \
+                                          --arch 'resnet20_quant_allQ' \
+                                          --epochs 400 \
+                                          --bit_weight 2 \
+                                          --bit_act 2 \
+                                          --optimizer 'SGD' \
+                                          --weight_decay 1e-4 \
+                                          --lr 1e-1 \
+                                          --scale_lr 1e-2 \
+                                          --load_pretrain True \
+                                          --pretrain_path './results/ResNet20_CIFAR100/fp/checkpoint/best_checkpoint.pth' \
+                                          --log_dir './results/Test' \
+                                          --seed 1 \
+                                          --fixed True \
+                                          --fixed_rate 0.1 \
+                                          --fixed_mode 'linear-growth' \
+                                          --warmup_epoch 80 \
+                                          --distance_ema 0 \
+                                          --scheduler step

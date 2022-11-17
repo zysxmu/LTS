@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0, python train_cifar_fp.py   --dataset 'cifar100' \
+                                          --arch 'resnet20_fp' \
+                                          --epochs 400 \
+                                          --bit_weight 32 \
+                                          --bit_act 32 \
+                                          --optimizer 'SGD' \
+                                          --weight_decay 1e-4 \
+                                          --lr 1e-1 \
+                                          --log_dir './results/Test' \
+                                          --seed 1 \
+                                          --scheduler step

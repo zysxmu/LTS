@@ -1,9 +1,7 @@
-# SpQAT
-Code for the reviewing process of CVPR 2023 submission 12240.
+
+# code of Exploiting the Partly Scratch-off Lottery Ticket for Quantization-Aware Training.
 
 It contains the related code of experiments on  CIFAR100/10 and ImageNet datasets. 
-
-The training code of the detection task will be released publicly after publication.
 
 
 ## Environments
@@ -27,3 +25,9 @@ The ``fixed_rate`` only works when the ``fixed_mode`` is ``fixing``.
 The pre-trained model will be download from torchvision or pytorchcv automatically.
 
 First, run ``run_imagenet.sh``.
+
+### detection task
+
+Please unzip mmdetection-master.zip, and install the mmdetection.
+
+Follow the instructions of readme of mmdetection to run the code.
