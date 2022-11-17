@@ -24,7 +24,9 @@ The ``fixed_rate`` only works when the ``fixed_mode`` is ``fixing``.
 
 The pre-trained model will be download from torchvision or pytorchcv automatically.
 
-First, run ``run_imagenet.sh``.
+Run ``run_imagenet.sh``.
+
+The trained models and logs are provided in [here](https://drive.google.com/drive/folders/17ZnRGZhZQ-3tp5NiPsRuIQk4kr5-33Vj?usp=share_link)
 
 ### Detection task
 
