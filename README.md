@@ -1,7 +1,7 @@
 
 # code of Exploiting the Partly Scratch-off Lottery Ticket for Quantization-Aware Training.
 
-It contains the related code of experiments on  CIFAR100/10 and ImageNet datasets. 
+It contains the related code of experiments on  CIFAR100/10, ImageNet datasets, and detection task. 
 
 
 ## Environments
@@ -26,7 +26,7 @@ The pre-trained model will be download from torchvision or pytorchcv automatical
 
 First, run ``run_imagenet.sh``.
 
-### detection task
+### Detection task
 
 Please unzip mmdetection-master.zip, and install the mmdetection.
 
