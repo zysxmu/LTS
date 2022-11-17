@@ -1,5 +1,5 @@
 
-# code of Exploiting the Partly Scratch-off Lottery Ticket for Quantization-Aware Training ([[link](http://arxiv.org/abs/2211.08544)]).
+# code of Exploiting the Partly Scratch-off Lottery Ticket for Quantization-Aware Training ([link](http://arxiv.org/abs/2211.08544)).
 
 It contains the related code of experiments on  CIFAR100/10, ImageNet datasets, and detection task. 
 
