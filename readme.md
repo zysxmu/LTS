@@ -78,7 +78,7 @@ For example, if you want to train a 2-bit r20, use:
 For example, if you want to train a 2-bit r18, use:
 
 `python main.py 
---data pathToCifar
+--data pathToImagenet
 --visible_gpus '0,1,2,3' 
 --multiprocessing_distributed True 
 --dist_url 'tcp://127.0.0.1:23117' 
@@ -100,7 +100,7 @@ For example, if you want to train a 2-bit r18, use:
 
 
 `python main.py 
---data pathToCifar
+--data pathToImagenet
 --visible_gpus '0,1,2,3' 
 --multiprocessing_distributed True 
 --dist_url 'tcp://127.0.0.1:23117' 
