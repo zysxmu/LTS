@@ -119,6 +119,8 @@ For example, if you want to train a 2-bit r18, use:
 --distance_ema 0.99 
 --bit 2`
 
+### Trained model
+Coming soon......
 
 ## Acknowledgments
 Code is implemented based on [PalQuant](https://github.com/huqinghao/PalQuant/)
