@@ -120,7 +120,7 @@ For example, if you want to train a 2-bit r18, use:
 --bit 2`
 
 ### Trained model
-Coming soon......
+[Here](https://drive.google.com/drive/folders/1Gsued_1Vi0HbBFjJv8UkGdl7IaBW0vD8?usp=sharing)
 
 ## Acknowledgments
-Code is implemented based on [PalQuant](https://github.com/huqinghao/PalQuant/)
+Code is implemented based on [PalQuant](https://github.com/huqinghao/PalQuant/). We are very grateful for their excellent work.
